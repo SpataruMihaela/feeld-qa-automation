@@ -8,6 +8,15 @@ The React Native application under test is maintained in a separate repository a
 
 This separation reflects real-world team structures where application development and test automation are owned and versioned independently.
 
+## Application Under Test (AUT)
+
+The React Native application under test is maintained in a separate repository:
+
+https://github.com/SpataruMihaela/feeld-qa-sample-app
+
+This automation project treats the application as an external system under test (SUT),
+reflecting real-world team ownership and deployment boundaries.
+
 ## Scenario
 
 This project was created to demonstrate how to design, implement, and maintain a comprehensive automation test suite for a React Native mobile application.
