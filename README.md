@@ -1,5 +1,13 @@
 # React Native Mobile Automation – End-to-End Tests
 
+## Repository Scope
+
+This repository contains only the mobile automation test framework.
+
+The React Native application under test is maintained in a separate repository and is treated as an external system under test (SUT).
+
+This separation reflects real-world team structures where application development and test automation are owned and versioned independently.
+
 ## Scenario
 
 This project was created to demonstrate how to design, implement, and maintain a comprehensive automation test suite for a React Native mobile application.
