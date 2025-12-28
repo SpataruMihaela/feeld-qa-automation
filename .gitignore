@@ -1,0 +1,67 @@
+# ================================
+# Node / JS
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# WebdriverIO / Appium
+# ================================
+.logs/
+logs/
+allure-results/
+allure-report/
+reports/
+wdio.log
+*.log
+
+# ================================
+# Appium
+# ================================
+appium.log
+appium-*.log
+
+# ================================
+# Android / Emulator
+# ================================
+*.apk
+*.aab
+android/.gradle/
+android/build/
+android/app/build/
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.*
+!*.example
+
+# ================================
+# TypeScript
+# ================================
+dist/
+build/
+*.tsbuildinfo
+
+# ================================
+# IDEs / OS
+# ================================
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ================================
+# Coverage
+# ================================
+coverage/
+
+# ================================
+# Temporary files
+# ================================
+tmp/
+temp/

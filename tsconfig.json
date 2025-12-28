@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "strict": true,
+    "types": ["node", "mocha", "@wdio/globals/types"],
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
